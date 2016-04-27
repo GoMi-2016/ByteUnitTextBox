@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Trash.GomixExample
 {
     using GoMix;
-    using System.Drawing;
+
     public partial class TestForm : Form
     {
         public TestForm()
