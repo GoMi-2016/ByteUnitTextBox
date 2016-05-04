@@ -31,7 +31,7 @@ namespace Trash.GoMix
         /// </summary>
         public ByteUnitTextBox()
         {
-            maxLength = DEFAULT_MAX_LENGTH;
+            MaxLength = DEFAULT_MAX_LENGTH;
         }
         
         /// <summary>
@@ -73,7 +73,7 @@ namespace Trash.GoMix
         {
             if (e.KeyCode == Keys.Tab)
             {
-                // e.Handled = true;
+                e.Handled = true;
             }
         }
 
