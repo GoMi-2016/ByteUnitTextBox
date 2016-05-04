@@ -73,7 +73,7 @@ namespace Trash.GoMix
         {
             if (e.KeyCode == Keys.Tab)
             {
-                e.Handled = true;
+                // e.Handled = true;
             }
         }
 
@@ -160,6 +160,14 @@ namespace Trash.GoMix
                 if (maxLength != value)
                 {
                     maxLength = value;
+
+                    // 対応しきれていない制御文字の為に
+                    // TextBoxBase側の字数制限を有効にする
+                    // (Unicode制御文字には非対応)
+                    if (base.MaxLength != value)
+                    {
+                        base.MaxLength = value;
+                    }
                 }
             }
         }
