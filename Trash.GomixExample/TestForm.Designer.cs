@@ -41,7 +41,6 @@
             this.byteUnitTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.byteUnitTextBox1.Location = new System.Drawing.Point(14, 15);
             this.byteUnitTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.byteUnitTextBox1.MaxLength = 255;
             this.byteUnitTextBox1.Multiline = true;
             this.byteUnitTextBox1.Name = "byteUnitTextBox1";
             this.byteUnitTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
